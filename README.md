@@ -2,23 +2,19 @@
 
 Tiger's personal tap for homebrew.
 
-- [homebrew-tap](#homebrew-tap)
-  - [Usage](#usage)
-  - [Content](#content)
-    - [Formulae](#formulae)
-      - [thrift@0.10](#thrift010)
-    - [Casks](#casks)
-
 ## Usage
 
-`brew tap DropFan/tap`
+```bash
+brew tap DropFan/tap
+```
 
-## Content
+## Formulae
 
-### Formulae
+| Name | Description | Install | Homepage |
+|------|-------------|---------|----------|
+| codelens | High performance code statistics tool written in Rust | `brew install DropFan/tap/codelens` | [GitHub](https://github.com/DropFan/codelens) |
+| thrift@0.10 | Framework for scalable cross-language services development | `brew install DropFan/tap/thrift@0.10` | [Apache](https://thrift.apache.org/) |
 
-#### thrift@0.10
+## Casks
 
-please see `brew info thrift@0.10` before `brew install thrift@0.10`
-
-### Casks
+(None yet)
