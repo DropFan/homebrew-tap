@@ -1,28 +1,28 @@
 class Codelens < Formula
   desc "High performance code analysis tool — stats, health scores, hotspots, and trends"
   homepage "https://github.com/DropFan/codelens"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/DropFan/codelens/releases/download/v0.1.1-rust/codelens-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "d05f43a55fc416a8809feea12ba45ad4c8d2398df2db2d588abb45d858cd28ca"
+      url "https://github.com/DropFan/codelens/releases/download/v0.1.2-rust/codelens-0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "76c29158d69a394594c1b083abbb1a15decee20b7091fea4f8145fd8e0247f52"
     end
     on_arm do
-      url "https://github.com/DropFan/codelens/releases/download/v0.1.1-rust/codelens-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "3e049fcbc6c848d08b804262952e9b01842e1589b989abe53c50de605933217d"
+      url "https://github.com/DropFan/codelens/releases/download/v0.1.2-rust/codelens-0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "ca677d89d13771c5b1195b0e9402f3091fffc0b40cb0e268e56d67d36b6d70ad"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/DropFan/codelens/releases/download/v0.1.1-rust/codelens-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d75e4bf20758c3d959925caad9910f0f6989a7ceb859df4e3ae2bf08fe71b3f1"
+      url "https://github.com/DropFan/codelens/releases/download/v0.1.2-rust/codelens-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7d72be94e5c30d3144dd4a8536af488b981c4c57fa172848998f0de7a06c03cd"
     end
     on_arm do
-      url "https://github.com/DropFan/codelens/releases/download/v0.1.1-rust/codelens-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2bcda6ee025a5040b4c6d00c5e5b337b02493ed3bbee581cfff244bfe1040fe8"
+      url "https://github.com/DropFan/codelens/releases/download/v0.1.2-rust/codelens-0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e51520e0db954734c90a2121da59da983fd62ae87b04bcebea85a6a96ae09da8"
     end
   end
 
