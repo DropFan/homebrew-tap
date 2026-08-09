@@ -1,5 +1,5 @@
 class Codelens < Formula
-  desc "High performance code analysis tool — stats, health scores, hotspots, and trends"
+  desc "Code stats, health scores, hotspots, coupling, diffs, and cost estimation"
   homepage "https://github.com/DropFan/codelens"
   version "0.1.7"
   license "MIT"
